@@ -1,0 +1,24 @@
+* rc simulation
+
+r1 a b 1
+r2 b d 0
+r3 d c 1
+r4 b e 1
+
+c1 e 0 1m
+
+* DC source
+Vin a c DC 5
+
+* Printing output
+.op
+
+* Sequential block
+.control
+	tran 1ms 10s
+	setplot tran1
+	plot e
+.endc
+
+.end
+

@@ -1,0 +1,13 @@
+* rc simulation
+
+
+
+
+* print output
+.op
+
+.control
+	
+.endc
+
+.end

@@ -1,0 +1,27 @@
+
+* rc simulation
+
+* rc time constant = 1ms
+r0 in out 1
+c0 out 0 1m
+
+*pulse on period
+Vin in 0 PULSE(0 1 1n 0.0001n 0.0001n 10m 20m)
+Iin in something DC 5
+
+* Printing output
+.op
+
+* Sequential block
+.control
+tran 0.0001ms 30ms
+op
+setplot tran1
+plot -Vin#branch
+plot in
+plot out
+plot something
+.endc
+
+.end
+
