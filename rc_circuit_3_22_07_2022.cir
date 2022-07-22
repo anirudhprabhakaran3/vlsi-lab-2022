@@ -17,7 +17,10 @@ Vin a c DC 5
 .control
 	tran 1ms 10s
 	setplot tran1
-	plot e
+	plot a
+	plot b
+	plot c
+	plot d
 .endc
 
 .end
