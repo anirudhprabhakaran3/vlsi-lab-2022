@@ -1,0 +1,23 @@
+* rc simulation
+
+r1 a b 1
+r2 c 0 1
+r3 b c 0
+
+c1 b 0 1m
+
+V1 a 0 PULSE(0 1 1n 1p 1p 40m 80m)
+
+* print output
+.op
+
+.control
+	tran 1ms 250ms
+	setplot tran1
+	plot b
+	plot c
+	plot a
+	plot V1#branch
+.endc
+
+.end
