@@ -1,0 +1,15 @@
+ 
+* rc circuit analysis
+
+r0 in out 0.1
+c0 out 0 1m
+*v1 in 0 pulse(0 1 1n 10n 10n 1m 2m)
+v2 in 0 dc 1v
+.op
+
+.control
+run
+*setplot tran1
+*plot out in
+.endc
+.end
