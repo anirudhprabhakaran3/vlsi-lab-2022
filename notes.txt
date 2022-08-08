@@ -1,0 +1,21 @@
+meas tran Vmax MAX out from=___ to=___
+
+Vmax = variable name
+MAX = function
+out = output node from netlist
+from, to => time points
+
+meas tran Vmin MIN out from=___ to=___
+
+meas tran trise trig out val=V10 rise=1 targ out val=V90 rise=1
+V10 = voltage at 10%
+V90 = voltage at 90%
+
+meas tran trise trig out val=V90 fall=1 targ out val=V10 fall=1
+
+# Propagation delay
+
+meas tran tphl trig in val=2.5 rise=1 targ out val=v50 fall=1
+meas tran tplh trig in val=2.5 fall=1 targ out val=v50 rise=1 
+
+
