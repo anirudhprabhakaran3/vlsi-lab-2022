@@ -45,7 +45,9 @@ v_in gd 0 PULSE(0 5 0 0 0 1n 2n)
 	tran 1p 2n
 	setplot tran1
 	plot vout, gd
-	plot v_test#branch
+	hardcopy img/plot1_current vout, gd
+	plot 5*v_test#branch
+	hardcopy img/plot1_power 5*v_test#branch
 	
 	meas tran Vmax MAX vout from=0.01n to=4n
         meas tran Vmin MIN vout from=0.01n to=4n
