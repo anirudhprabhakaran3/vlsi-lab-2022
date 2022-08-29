@@ -1,0 +1,74 @@
+* Psuedo NMOS Inverter
+
+.include ./t14y_tsmc_025_level3.txt
+
+m_load sl sl vout 0 cmosn l=0.5u w=25u
+m_driver vout gd 0 0 cmosn l=0.5u w=10u
+
+v_dd sl 0 5
+v_test vtest vout 0
+v_in gd 0 PULSE(0 5 0 0 0 1n 2n)
+
+.control
+
+	foreach width 1u 10u 100u
+		alter @m_load[w] = $width
+		dc v_in 0 5 0.01
+	end
+
+	foreach width 1u 10u 100u
+		alter @m_driver[w] = $width
+		dc v_in 0 5 0.01
+	end 
+
+	foreach length 1u 10u 100u
+		alter @m_load[l] = $length
+		dc v_in 0 5 0.01
+	end
+
+	foreach length 1u 10u 100u
+		alter @m_driver[l] = $length
+		dc v_in 0 5 0.01
+	end
+
+	foreach iter 1 2 3 4 5 6 7 8 9 10 11 12
+		setplot dc$iter
+		plot vout
+		hardcopy img/plot2_$iter vout
+	end
+
+	alter @m_load[l] = 0.5u
+	alter @m_load[w] = 10u
+	alter @m_driver[l] = 0.5u
+	alter @m_driver[w] = 10u
+
+	tran 1p 2n
+	setplot tran12
+	plot vout, gd
+	hardcopy img/plot1_current vout, gd
+	plot 5*v_test#branch
+	hardcopy img/plot1_power 5*v_test#branch
+	
+	meas tran Vmax MAX vout from=0.01n to=4n
+        meas tran Vmin MIN vout from=0.01n to=4n
+
+        let v10 = Vmin + 0.1*(Vmax - Vmin)
+        let v50 = Vmin + 0.5*(Vmax - Vmin)
+        let v90 = Vmin + 0.9*(Vmax - Vmin)
+
+        print v10, v50, v90
+
+        meas tran trise trig vout val=v10 rise=1 targ vout val=v90 rise=1
+        print trise
+        meas tran tfall trig vout val=v90 fall=1 targ vout val=v10 fall=1
+        print tfall
+
+        meas tran tphl trig gd val=2.5 rise=1 targ vout val=v50 fall=1
+        meas tran tplh trig gd val=2.5 fall=1 targ vout val=v50 rise=1
+        print tphl
+        print tplh
+        let tp = (tphl+tplh)/2
+        print tp
+	
+.endc
+.end

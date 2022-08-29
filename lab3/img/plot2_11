@@ -1,0 +1,700 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: nutmeg
+%%BoundingBox: 54 54 612 612
+1 1 scale
+/Helvetica findfont 10 scalefont setfont
+
+[] 0 setdash
+[1 2] 0 setdash
+[] 0 setdash
+243 66 moveto
+(v-sweep) show
+[1 2] 0 setdash
+[] 0 setdash
+newpath
+78 104 moveto
+78 545 lineto
+stroke
+[1 2] 0 setdash
+[] 0 setdash
+69 87 moveto
+(0.0) show
+[1 2] 0 setdash
+newpath
+127 104 moveto
+127 545 lineto
+stroke
+[] 0 setdash
+118 87 moveto
+(0.5) show
+[1 2] 0 setdash
+newpath
+176 104 moveto
+176 545 lineto
+stroke
+[] 0 setdash
+167 87 moveto
+(1.0) show
+[1 2] 0 setdash
+newpath
+225 104 moveto
+225 545 lineto
+stroke
+[] 0 setdash
+216 87 moveto
+(1.5) show
+[1 2] 0 setdash
+newpath
+274 104 moveto
+274 545 lineto
+stroke
+[] 0 setdash
+265 87 moveto
+(2.0) show
+[1 2] 0 setdash
+newpath
+323 104 moveto
+323 545 lineto
+stroke
+[] 0 setdash
+314 87 moveto
+(2.5) show
+[1 2] 0 setdash
+newpath
+372 104 moveto
+372 545 lineto
+stroke
+[] 0 setdash
+363 87 moveto
+(3.0) show
+[1 2] 0 setdash
+newpath
+421 104 moveto
+421 545 lineto
+stroke
+[] 0 setdash
+412 87 moveto
+(3.5) show
+[1 2] 0 setdash
+newpath
+470 104 moveto
+470 545 lineto
+stroke
+[] 0 setdash
+461 87 moveto
+(4.0) show
+[1 2] 0 setdash
+newpath
+519 104 moveto
+519 545 lineto
+stroke
+[] 0 setdash
+510 87 moveto
+(4.5) show
+[1 2] 0 setdash
+newpath
+568 104 moveto
+568 545 lineto
+stroke
+[] 0 setdash
+559 87 moveto
+(5.0) show
+[1 2] 0 setdash
+[] 0 setdash
+382 66 moveto
+(V) show
+[1 2] 0 setdash
+[] 0 setdash
+newpath
+78 104 moveto
+568 104 lineto
+stroke
+[1 2] 0 setdash
+[] 0 setdash
+60 101 moveto
+(0.0) show
+[1 2] 0 setdash
+newpath
+78 153 moveto
+568 153 lineto
+stroke
+[] 0 setdash
+60 150 moveto
+(0.5) show
+[1 2] 0 setdash
+newpath
+78 202 moveto
+568 202 lineto
+stroke
+[] 0 setdash
+60 199 moveto
+(1.0) show
+[1 2] 0 setdash
+newpath
+78 251 moveto
+568 251 lineto
+stroke
+[] 0 setdash
+60 248 moveto
+(1.5) show
+[1 2] 0 setdash
+newpath
+78 300 moveto
+568 300 lineto
+stroke
+[] 0 setdash
+60 297 moveto
+(2.0) show
+[1 2] 0 setdash
+newpath
+78 349 moveto
+568 349 lineto
+stroke
+[] 0 setdash
+60 346 moveto
+(2.5) show
+[1 2] 0 setdash
+newpath
+78 398 moveto
+568 398 lineto
+stroke
+[] 0 setdash
+60 395 moveto
+(3.0) show
+[1 2] 0 setdash
+newpath
+78 447 moveto
+568 447 lineto
+stroke
+[] 0 setdash
+60 444 moveto
+(3.5) show
+[1 2] 0 setdash
+newpath
+78 496 moveto
+568 496 lineto
+stroke
+[] 0 setdash
+60 493 moveto
+(4.0) show
+[1 2] 0 setdash
+newpath
+78 545 moveto
+568 545 lineto
+stroke
+[] 0 setdash
+60 542 moveto
+(4.5) show
+[1 2] 0 setdash
+[] 0 setdash
+54 582 moveto
+(V) show
+[1 2] 0 setdash
+[7 7] 0 setdash
+newpath
+293 586 moveto
+317 586 lineto
+stroke
+[] 0 setdash
+323 582 moveto
+(vout) show
+[7 7] 0 setdash
+newpath
+78 521 moveto
+79 520 lineto
+80 520 lineto
+81 519 lineto
+82 518 lineto
+83 518 lineto
+84 517 lineto
+85 516 lineto
+86 516 lineto
+87 515 lineto
+88 514 lineto
+89 513 lineto
+90 513 lineto
+91 512 lineto
+92 511 lineto
+93 510 lineto
+94 509 lineto
+95 509 lineto
+96 508 lineto
+97 507 lineto
+98 506 lineto
+99 505 lineto
+100 505 lineto
+101 504 lineto
+102 503 lineto
+103 502 lineto
+103 501 lineto
+104 501 lineto
+105 500 lineto
+106 499 lineto
+107 498 lineto
+108 497 lineto
+109 497 lineto
+110 496 lineto
+111 495 lineto
+112 494 lineto
+113 493 lineto
+114 493 lineto
+115 492 lineto
+116 492 lineto
+117 491 lineto
+118 491 lineto
+119 490 lineto
+120 489 lineto
+121 488 lineto
+122 487 lineto
+123 485 lineto
+124 483 lineto
+125 480 lineto
+126 477 lineto
+127 474 lineto
+128 472 lineto
+129 469 lineto
+130 466 lineto
+131 463 lineto
+132 460 lineto
+133 457 lineto
+134 455 lineto
+135 452 lineto
+136 449 lineto
+137 446 lineto
+138 443 lineto
+139 440 lineto
+140 437 lineto
+141 434 lineto
+142 432 lineto
+143 429 lineto
+144 426 lineto
+145 423 lineto
+146 420 lineto
+147 417 lineto
+148 414 lineto
+149 411 lineto
+150 408 lineto
+151 405 lineto
+152 402 lineto
+152 399 lineto
+153 396 lineto
+154 393 lineto
+155 390 lineto
+156 387 lineto
+157 384 lineto
+158 381 lineto
+159 378 lineto
+160 375 lineto
+161 372 lineto
+162 368 lineto
+163 365 lineto
+164 362 lineto
+165 359 lineto
+166 356 lineto
+167 353 lineto
+168 350 lineto
+169 347 lineto
+170 343 lineto
+171 340 lineto
+172 337 lineto
+173 334 lineto
+174 331 lineto
+175 328 lineto
+176 324 lineto
+177 321 lineto
+178 318 lineto
+179 315 lineto
+180 311 lineto
+181 308 lineto
+182 305 lineto
+183 302 lineto
+184 298 lineto
+185 295 lineto
+186 292 lineto
+187 289 lineto
+188 285 lineto
+189 282 lineto
+190 279 lineto
+191 275 lineto
+192 272 lineto
+193 269 lineto
+194 265 lineto
+195 262 lineto
+196 259 lineto
+197 255 lineto
+198 252 lineto
+199 248 lineto
+200 245 lineto
+201 242 lineto
+201 238 lineto
+202 235 lineto
+203 231 lineto
+204 228 lineto
+205 225 lineto
+206 221 lineto
+207 218 lineto
+208 214 lineto
+209 211 lineto
+210 207 lineto
+211 204 lineto
+212 200 lineto
+213 197 lineto
+214 193 lineto
+215 190 lineto
+216 186 lineto
+217 183 lineto
+218 181 lineto
+219 179 lineto
+220 177 lineto
+221 175 lineto
+222 174 lineto
+223 173 lineto
+224 171 lineto
+225 170 lineto
+226 169 lineto
+227 168 lineto
+228 167 lineto
+229 166 lineto
+230 165 lineto
+231 164 lineto
+232 164 lineto
+233 163 lineto
+234 162 lineto
+235 161 lineto
+236 161 lineto
+237 160 lineto
+238 159 lineto
+239 159 lineto
+240 158 lineto
+241 158 lineto
+242 157 lineto
+243 157 lineto
+244 156 lineto
+245 155 lineto
+246 155 lineto
+247 155 lineto
+248 154 lineto
+249 154 lineto
+250 153 lineto
+251 152 lineto
+252 152 lineto
+253 152 lineto
+254 151 lineto
+255 151 lineto
+256 150 lineto
+257 150 lineto
+258 150 lineto
+259 149 lineto
+260 149 lineto
+261 149 lineto
+262 148 lineto
+263 148 lineto
+264 148 lineto
+265 147 lineto
+266 147 lineto
+267 147 lineto
+268 147 lineto
+269 146 lineto
+270 146 lineto
+271 146 lineto
+272 145 lineto
+273 145 lineto
+274 145 lineto
+275 145 lineto
+276 144 lineto
+277 144 lineto
+278 144 lineto
+279 144 lineto
+280 144 lineto
+281 143 lineto
+282 143 lineto
+283 143 lineto
+284 143 lineto
+285 142 lineto
+286 142 lineto
+287 142 lineto
+288 142 lineto
+289 142 lineto
+290 141 lineto
+291 141 lineto
+292 141 lineto
+293 141 lineto
+294 141 lineto
+295 140 lineto
+296 140 lineto
+297 140 lineto
+298 140 lineto
+299 140 lineto
+300 139 lineto
+301 139 lineto
+302 139 lineto
+303 139 lineto
+304 139 lineto
+305 139 lineto
+306 138 lineto
+307 138 lineto
+308 138 lineto
+309 138 lineto
+310 138 lineto
+311 138 lineto
+312 138 lineto
+313 137 lineto
+314 137 lineto
+315 137 lineto
+316 137 lineto
+317 137 lineto
+318 137 lineto
+319 137 lineto
+320 136 lineto
+321 136 lineto
+322 136 lineto
+323 136 lineto
+324 136 lineto
+325 136 lineto
+326 136 lineto
+327 136 lineto
+328 135 lineto
+329 135 lineto
+330 135 lineto
+331 135 lineto
+332 135 lineto
+333 135 lineto
+334 135 lineto
+335 135 lineto
+336 135 lineto
+337 134 lineto
+338 134 lineto
+339 134 lineto
+340 134 lineto
+341 134 lineto
+342 134 lineto
+343 134 lineto
+344 134 lineto
+345 134 lineto
+346 134 lineto
+347 133 lineto
+348 133 lineto
+349 133 lineto
+350 133 lineto
+351 133 lineto
+352 133 lineto
+353 133 lineto
+354 133 lineto
+355 133 lineto
+356 133 lineto
+357 132 lineto
+358 132 lineto
+359 132 lineto
+360 132 lineto
+361 132 lineto
+362 132 lineto
+363 132 lineto
+364 132 lineto
+365 132 lineto
+366 132 lineto
+367 132 lineto
+368 132 lineto
+369 131 lineto
+370 131 lineto
+371 131 lineto
+372 131 lineto
+373 131 lineto
+374 131 lineto
+375 131 lineto
+376 131 lineto
+377 131 lineto
+378 131 lineto
+379 131 lineto
+380 131 lineto
+381 131 lineto
+382 130 lineto
+383 130 lineto
+384 130 lineto
+385 130 lineto
+386 130 lineto
+387 130 lineto
+388 130 lineto
+389 130 lineto
+390 130 lineto
+391 130 lineto
+392 130 lineto
+393 130 lineto
+394 130 lineto
+395 130 lineto
+396 130 lineto
+396 129 lineto
+397 129 lineto
+398 129 lineto
+399 129 lineto
+400 129 lineto
+401 129 lineto
+402 129 lineto
+403 129 lineto
+404 129 lineto
+405 129 lineto
+406 129 lineto
+407 129 lineto
+408 129 lineto
+409 129 lineto
+410 129 lineto
+411 129 lineto
+412 129 lineto
+413 128 lineto
+414 128 lineto
+415 128 lineto
+416 128 lineto
+417 128 lineto
+418 128 lineto
+419 128 lineto
+420 128 lineto
+421 128 lineto
+422 128 lineto
+423 128 lineto
+424 128 lineto
+425 128 lineto
+426 128 lineto
+427 128 lineto
+428 128 lineto
+429 128 lineto
+430 128 lineto
+431 128 lineto
+432 127 lineto
+433 127 lineto
+434 127 lineto
+435 127 lineto
+436 127 lineto
+437 127 lineto
+438 127 lineto
+439 127 lineto
+440 127 lineto
+441 127 lineto
+442 127 lineto
+443 127 lineto
+444 127 lineto
+445 127 lineto
+446 127 lineto
+447 127 lineto
+448 127 lineto
+449 127 lineto
+450 127 lineto
+451 127 lineto
+452 127 lineto
+453 126 lineto
+454 126 lineto
+455 126 lineto
+456 126 lineto
+457 126 lineto
+458 126 lineto
+459 126 lineto
+460 126 lineto
+461 126 lineto
+462 126 lineto
+463 126 lineto
+464 126 lineto
+465 126 lineto
+466 126 lineto
+467 126 lineto
+468 126 lineto
+469 126 lineto
+470 126 lineto
+471 126 lineto
+472 126 lineto
+473 126 lineto
+474 126 lineto
+475 126 lineto
+476 126 lineto
+477 126 lineto
+478 126 lineto
+479 125 lineto
+480 125 lineto
+481 125 lineto
+482 125 lineto
+483 125 lineto
+484 125 lineto
+485 125 lineto
+486 125 lineto
+487 125 lineto
+488 125 lineto
+489 125 lineto
+490 125 lineto
+491 125 lineto
+492 125 lineto
+493 125 lineto
+494 125 lineto
+495 125 lineto
+496 125 lineto
+497 125 lineto
+498 125 lineto
+499 125 lineto
+500 125 lineto
+501 125 lineto
+502 125 lineto
+503 125 lineto
+504 125 lineto
+505 125 lineto
+506 125 lineto
+507 124 lineto
+508 124 lineto
+509 124 lineto
+510 124 lineto
+511 124 lineto
+512 124 lineto
+513 124 lineto
+514 124 lineto
+515 124 lineto
+516 124 lineto
+517 124 lineto
+518 124 lineto
+519 124 lineto
+520 124 lineto
+521 124 lineto
+522 124 lineto
+523 124 lineto
+524 124 lineto
+525 124 lineto
+526 124 lineto
+527 124 lineto
+528 124 lineto
+529 124 lineto
+530 124 lineto
+531 124 lineto
+532 124 lineto
+533 124 lineto
+534 124 lineto
+535 124 lineto
+536 124 lineto
+537 124 lineto
+538 124 lineto
+539 124 lineto
+540 124 lineto
+541 124 lineto
+542 124 lineto
+543 123 lineto
+544 123 lineto
+545 123 lineto
+546 123 lineto
+547 123 lineto
+548 123 lineto
+549 123 lineto
+550 123 lineto
+551 123 lineto
+552 123 lineto
+553 123 lineto
+554 123 lineto
+555 123 lineto
+556 123 lineto
+557 123 lineto
+558 123 lineto
+559 123 lineto
+560 123 lineto
+561 123 lineto
+562 123 lineto
+563 123 lineto
+564 123 lineto
+565 123 lineto
+566 123 lineto
+567 123 lineto
+568 123 lineto
+stroke
+showpage
+%%EOF
