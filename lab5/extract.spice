@@ -1,0 +1,11 @@
+* SPICE3 file created from extract.ext - technology: scmos
+
+.option scale=0.01u
+
+M1000 a_0_n10# a_n9_n2# a_n8_6# Vdd pfet w=400 l=200
++  ad=240000 pd=2000 as=240000 ps=2000
+M1001 a_0_n10# a_n9_n2# a_n8_n10# Gnd nfet w=400 l=200
++  ad=240000 pd=2000 as=240000 ps=2000
+C0 a_n8_n10# Gnd 2.54fF
+C1 a_n8_6# Gnd 2.40fF
+C2 a_n9_n2# Gnd 7.07fF
