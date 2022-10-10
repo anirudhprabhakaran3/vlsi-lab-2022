@@ -1,0 +1,9 @@
+* Psuedo NMOS Inverter
+
+.include ./t14y_tsmc_025_level3.txt
+
+m_load vtest 0 sl sl pfet l=2u w=8u ad=40 pd=26 as=40 ps=26
+m_driver vout gd 0 0 nfet l=2u w=4u ad=20 pd=18 as=20 ps=18
+
+
+.end
