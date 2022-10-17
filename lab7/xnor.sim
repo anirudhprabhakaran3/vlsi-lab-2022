@@ -1,0 +1,21 @@
+| units: 5.5 tech: scmos format: MIT
+p b bn vdd 2 21 -68 43
+p a vdd an 2 13 -54 43
+p bn an a_n49_18# 2 13 -44 43
+p an a_n49_18# bn 2 21 -34 43
+p a_n49_18# vdd z 2 12 14 43
+n b bn vss 2 7 -74 24
+n a_n49_18# z vss 2 6 14 25
+n a vss an 2 7 -61 18
+n b an a_n49_18# 2 7 -51 18
+n bn a_n49_18# a_n39_16# 2 9 -41 16
+n an a_n39_16# vss 2 9 -34 16
+R a_n39_16# 12
+R z 28
+R a_n49_18# 191
+R a 175
+R an 220
+R bn 281
+R b 454
+R vss 4204
+R vdd 4718

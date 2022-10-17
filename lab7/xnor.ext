@@ -1,0 +1,60 @@
+timestamp 1666020122
+version 8.1
+tech scmos
+style pharosc200-55nm
+scale 1 1 5.5
+resistclasses 6700 7320 4090 4090 1207000 1207000 7360 87 57 57 57 57 20
+node "a_n39_16#" 12060 0 -39 16 ndif 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "z" 27658 21.5844 7 25 ndif 42 26 72 38 0 0 0 0 0 0 0 0 0 0 168 76 0 0 0 0 0 0 0 0 0 0
+equiv "z" "z"
+node "a_n49_18#" 190799 148.637 -49 18 ndif 66 34 144 58 0 0 0 0 0 0 0 0 112 100 632 316 0 0 0 0 0 0 0 0 0 0
+node "a" 175123 63.1972 -62 34 p 0 0 0 0 0 0 0 0 0 0 0 0 126 114 104 52 0 0 0 0 0 0 0 0 0 0
+equiv "a" "a"
+node "an" 219894 79.8056 -59 18 ndif 56 30 104 42 0 0 0 0 0 0 0 0 140 128 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "an" "an"
+equiv "an" "an"
+node "bn" 280612 94.2786 -81 24 ndif 49 28 248 112 0 0 0 0 0 0 0 0 138 126 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "bn" "bn"
+equiv "bn" "bn"
+equiv "bn" "bn"
+node "b" 453909 147.564 -81 59 p 0 0 0 0 0 0 0 0 0 0 0 0 278 266 101 54 0 0 0 0 0 0 0 0 0 0
+equiv "b" "b"
+node "vss" 4203528 165.197 -92 0 pw 224 106 0 0 0 0 162 70 0 0 4662 326 0 0 768 224 0 0 0 0 0 0 0 0 0 0
+equiv "vss" "vss"
+node "vdd" 4717671 148.742 -92 37 nw 0 0 423 144 126 66 0 0 5685 372 0 0 0 0 768 224 0 0 0 0 0 0 0 0 0 0
+equiv "vdd" "vdd"
+node "ab_5_5#" 0 0 5 5 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_n87_5#" 0 0 -87 5 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "z" "a_n49_18#" 28.9696
+cap "b" "vdd" 60.3183
+cap "a_n49_18#" "an" 131.796
+cap "a" "an" 25.1938
+cap "a_n49_18#" "bn" 63.1163
+cap "z" "vss" 23.307
+cap "a" "bn" 69.6789
+cap "a_n49_18#" "vss" 60.3392
+cap "a" "b" 38.2027
+cap "an" "bn" 92.2002
+cap "an" "b" 3.8826
+cap "a" "vss" 35.447
+cap "a_n49_18#" "vdd" 71.9418
+cap "an" "vss" 26.652
+cap "bn" "b" 50.379
+cap "an" "vdd" 1.6038
+cap "bn" "vss" 3.123
+cap "a_n39_16#" "a_n49_18#" 9.97
+cap "b" "vss" 26.7552
+cap "bn" "vdd" 155.329
+device mosfet nmos -34 16 -33 17 2 9 "vss" "an" 4 0 "a_n39_16#" 9 0 "vss" 9 0
+device mosfet nmos -41 16 -40 17 2 9 "vss" "bn" 4 0 "a_n49_18#" 9 0 "a_n39_16#" 9 0
+device mosfet nmos -51 18 -50 19 2 7 "vss" "b" 4 0 "an" 7 0 "a_n49_18#" 7 0
+device mosfet nmos -61 18 -60 19 2 7 "vss" "a" 4 0 "vss" 7 0 "an" 7 0
+device mosfet nmos 14 25 15 26 2 6 "vss" "a_n49_18#" 4 0 "z" 6 0 "vss" 6 0
+device mosfet nmos -74 24 -73 25 2 7 "vss" "b" 4 0 "bn" 7 0 "vss" 7 0
+device mosfet pmos 14 43 15 44 2 12 "vdd" "a_n49_18#" 4 0 "vdd" 12 0 "z" 12 0
+device mosfet pmos -34 43 -33 44 2 21 "vdd" "an" 4 0 "a_n49_18#" 21 0 "bn" 21 0
+device mosfet pmos -44 43 -43 44 2 13 "vdd" "bn" 4 0 "an" 13 0 "a_n49_18#" 13 0
+device mosfet pmos -54 43 -53 44 2 13 "vdd" "a" 4 0 "vdd" 13 0 "an" 13 0
+device mosfet pmos -68 43 -67 44 2 21 "vdd" "b" 4 0 "bn" 21 0 "vdd" 21 0
+subcap "a_n49_18#" -126.309
+subcap "b" -11.3175

@@ -1,0 +1,12 @@
+magic
+tech scmos
+timestamp 1666024176
+<< pdiffusion >>
+rect 0 -13 14 -7
+<< metal1 >>
+rect 0 13 17 21
+rect 0 -51 17 -43
+<< labels >>
+rlabel metal1 8 -49 8 -49 5 vss
+rlabel metal1 9 19 9 19 1 vdd
+<< end >>
