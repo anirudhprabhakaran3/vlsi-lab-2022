@@ -1,0 +1,27 @@
+timestamp 1666709236
+version 8.1
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "vss" 161 10716 0 15 ndiff 96 56 0 0 0 0 0 0 0 0 0 0 360 132 0 0 0 0
+node "output" 277 3948 7 15 ndiff 128 48 88 46 0 0 0 0 0 0 0 0 208 112 0 0 0 0
+node "a_7_44#" 60 0 7 44 pdiff 0 0 256 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 191 12032 0 44 pdiff 0 0 80 42 0 0 0 0 0 0 0 0 316 110 0 0 0 0
+node "b" 596 0 19 37 pc 0 0 0 0 116 112 0 0 0 0 0 0 16 16 0 0 0 0
+node "a" 596 0 1 37 pc 0 0 0 0 116 112 0 0 0 0 0 0 16 16 0 0 0 0
+node "w_0_8#" 0 0 0 8 pw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_0_32#" 4314 0 0 32 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 128
+cap "w_0_32#" "a" 5076
+cap "w_0_8#" "output" 3572
+cap "w_0_8#" "vss" 3948
+cap "a" "w_0_8#" 3336
+cap "vdd" "w_0_32#" 752
+cap "w_0_32#" "b" 5076
+cap "b" "output" 240
+cap "w_0_8#" "b" 3336
+device mosfet nfet 23 15 24 16 2 8 "w_0_8#" "b" 4 0 "output" 8 0 "vss" 8 0
+device mosfet nfet 5 15 6 16 2 8 "w_0_8#" "a" 4 0 "vss" 8 0 "output" 8 0
+device mosfet pfet 23 44 24 45 2 16 "w_0_32#" "b" 4 0 "a_7_44#" 16 0 "output" 16 0
+device mosfet pfet 5 44 6 45 2 16 "w_0_32#" "a" 4 0 "vdd" 16 0 "a_7_44#" 16 0
+subcap "output" -1974

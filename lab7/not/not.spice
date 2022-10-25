@@ -1,0 +1,13 @@
+* SPICE3 file created from not.ext - technology: scmos
+
+.option scale=1u
+
+M1000 output a vdd w_0_32# pfet w=12 l=2
++  ad=180 pd=54 as=180 ps=54
+M1001 output a vss w_0_8# nfet w=6 l=2
++  ad=90 pd=42 as=90 ps=42
+C0 a w_0_8# 4.84fF
+C1 output w_0_8# 2.07fF
+C2 w_0_32# a 2.38fF
+C3 vss 0 12.03fF
+C4 vdd 0 12.03fF

@@ -1,0 +1,21 @@
+* SPICE3 file created from nor.ext - technology: scmos
+
+.include ./t14y_tsmc_025_level3.txt
+.option scale=1u
+
+M1000 in a vdd vdd cmosp w=16 l=2
+M1001 output b in vdd cmosp w=16 l=2
+M1002 output a vss 0 cmosn w=8 l=2
+M1003 vss b output 0 cmosn w=8 l=2
+
+v_dd vdd 0 5
+v_ss vss 0 0
+v_a a 0 PULSE(0 5 0 0 0 10n 20n)
+v_b b 0 PULSE(0 5 0 0 0 20n 40n)
+
+.control
+	tran 0.01n 40n
+	setplot tran1
+	plot a b output
+.endc
+.end

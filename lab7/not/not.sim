@@ -1,0 +1,13 @@
+| units: 100 tech: scmos format: MIT
+p a vdd output 2 12 15 38
+n a vss output 2 6 15 15
+C w_0_8# a 4.84
+C w_0_8# output 2.07
+C w_0_32# a 2.38
+C vss GND 12.03
+R vss 67
+R output 141
+C vdd GND 12.03
+R vdd 75
+R a 465
+R w_0_32# 3341

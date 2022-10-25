@@ -1,0 +1,26 @@
+| units: 100 tech: scmos format: MIT
+p a vdd a_n32_43# 2 16 -34 43
+p b a_n32_43# vdd 2 16 -16 43
+p a_n32_43# vdd output 2 12 15 38
+n a vss a_n32_13# 2 9 -34 13
+n b a_n32_13# a_n32_43# 2 9 -16 13
+n a_n32_43# vss output 2 6 15 15
+C w_n39_32# b 4.84
+C a_n32_43# w_n39_32# 4.97
+C w_n39_8# b 3.34
+C w_n39_32# a 4.84
+C a_n32_43# w_n39_8# 12.03
+C w_n39_8# vss 2.26
+C w_n39_8# a 3.34
+C vdd w_n39_32# 4.51
+C output w_n39_8# 2.07
+R a_n32_13# 47
+C vss GND 26.70
+R vss 185
+R output 141
+R a_n32_43# 574
+C vdd GND 26.70
+R vdd 711
+R b 596
+R a 596
+R w_n39_32# 5560

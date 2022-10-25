@@ -1,0 +1,18 @@
+* CMOS
+
+.include ./t14y_tsmc_025_level3.txt
+
+m_load vout gd sl sl cmosp l=0.5u w=10u
+m_driver vout gd 0 0 cmosn l=0.5u w=10u
+c1 vtest 0 0.00000001
+
+v_dd sl 0 5
+v_in gd 0 PULSE(0 5 0 0 0 1n 2n)
+v_test vout vtest 0
+
+.control
+	tran 0.01n 6n
+	setplot tran1
+	plot gd vout 
+.endc
+.end

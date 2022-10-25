@@ -1,0 +1,32 @@
+timestamp 1666711064
+version 8.1
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "a_n32_13#" 47 0 -32 13 ndiff 144 50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vss" 185 26696 -39 13 ndiff 135 70 0 0 0 0 0 0 0 0 0 0 664 206 0 0 0 0
+node "output" 141 0 17 15 ndiff 90 42 180 54 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "a_n32_43#" 574 0 -32 43 pdiff 45 28 256 64 94 90 0 0 0 0 0 0 304 160 0 0 0 0
+node "vdd" 711 26696 -39 43 pdiff 0 0 340 138 0 0 0 0 0 0 0 0 764 256 0 0 0 0
+node "b" 596 0 -16 11 p 0 0 0 0 116 112 0 0 0 0 0 0 16 16 0 0 0 0
+node "a" 596 0 -38 36 pc 0 0 0 0 116 112 0 0 0 0 0 0 16 16 0 0 0 0
+node "w_n39_8#" 0 0 -39 8 pw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n39_32#" 5560 0 -39 32 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2272 206
+cap "w_n39_8#" "a_n32_43#" 12029
+cap "a" "w_n39_32#" 4838
+cap "output" "w_n39_32#" 1128
+cap "b" "w_n39_32#" 4838
+cap "a" "w_n39_8#" 3336
+cap "w_n39_32#" "a_n32_43#" 4969
+cap "output" "w_n39_8#" 2068
+cap "b" "a_n32_43#" 240
+cap "w_n39_32#" "vdd" 4512
+cap "b" "w_n39_8#" 3336
+cap "w_n39_8#" "vss" 2256
+device mosfet nfet 15 15 16 16 2 6 "w_n39_8#" "a_n32_43#" 4 0 "vss" 6 0 "output" 6 0
+device mosfet nfet -16 13 -15 14 2 9 "w_n39_8#" "b" 4 0 "a_n32_13#" 9 0 "a_n32_43#" 9 0
+device mosfet nfet -34 13 -33 14 2 9 "w_n39_8#" "a" 4 0 "vss" 9 0 "a_n32_13#" 9 0
+device mosfet pfet 15 38 16 39 2 12 "w_n39_32#" "a_n32_43#" 4 0 "vdd" 12 0 "output" 12 0
+device mosfet pfet -16 43 -15 44 2 16 "w_n39_32#" "b" 4 0 "a_n32_43#" 16 0 "vdd" 16 0
+device mosfet pfet -34 43 -33 44 2 16 "w_n39_32#" "a" 4 0 "vdd" 16 0 "a_n32_43#" 16 0
